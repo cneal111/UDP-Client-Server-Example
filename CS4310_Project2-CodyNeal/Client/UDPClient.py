@@ -6,7 +6,7 @@ def main():
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     UDP_IP = 'localhost'
     UDP_PORT = port
-    #sock.connect((UDP_IP, UDP_PORT))
+  
     serverAddressPort = (UDP_IP, UDP_PORT)
     BUFFER_SIZE = 1024
 
